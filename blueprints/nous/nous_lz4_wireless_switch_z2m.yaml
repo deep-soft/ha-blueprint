@@ -56,4 +56,4 @@ action:
     sequence: !input "long_press"
   - conditions: 
     - "{{ command == 'hold' }}"
-    sequence: !input "hold_press"
+    sequence: !input "hold"
